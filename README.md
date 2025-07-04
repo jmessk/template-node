@@ -12,3 +12,15 @@ This is a template repository for Node.js on Docker and Docker Compose.
   - Ports to expose, default is `3000:3000`
 
 ## Getting Started
+
+- To start the container, run:
+
+  ```bash
+  docker compose up [-d]
+  ```
+
+- to start container for development with bash, run:
+
+  ```bash
+  docker compose run --rm dev
+  ```

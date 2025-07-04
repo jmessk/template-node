@@ -12,3 +12,5 @@ services:
       - .:/home/node/app
     tty: true
     working_dir: /home/node/app
+    entrypoint:
+      - /bin/bash
